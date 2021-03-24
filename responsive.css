@@ -1,0 +1,32 @@
+@media all and (max-width:1350px) {
+    .mid-width {
+        width: 100%;
+        max-width: 100%;
+        margin: auto;
+        padding-left: 25px;
+        padding-right: 25px ;
+        box-sizing: border-box;
+    }
+}
+@media all and (max-width:1200px) {
+
+}
+@media all and (max-width:992px) {
+    .logo img {
+        width: 150px;
+        margin-top: 14px;
+    }
+    .menubar ul li a {
+        padding: 1px 14px;
+        font-size: 20px;
+    }
+}
+@media all and (max-width:768px) {
+    .menubar ul li {
+        border: none;
+    }
+    .logo img {
+        width: 125px;
+        margin-top: 14px;
+    }
+}
